@@ -1,15 +1,15 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class VowelSwitch {
     public static void main(String[] args) {
-        String ch;
+        char ch;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter any character: ");
-        ch = input.nextLine();
+        ch = input.next().charAt(0);
 
         switch (ch) {
-            case "a":
-            case "e":
+            case 'a':
+          /*  case "e":
             case "i":
             case "o":
             case "u":
@@ -17,7 +17,7 @@ public class VowelSwitch {
             case "E":
             case "I":
             case "O":
-            case "U":
+            case "U":*/
                 System.out.println("it is vowel.");
                 break;
         
