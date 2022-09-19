@@ -18,5 +18,8 @@ public class TimeConversion {
 			second %= 60;
 			System.out.println(minute + " Minute");
 		}
+		if (second < 60) {
+			System.out.println(second + " second");
+		}
 	}
 }
