@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Car {
+class Cars {
 	private int modelNo;
 	String carName;
 	double price;
@@ -22,10 +22,10 @@ class Car {
 
 public class Vehicle {
 	public static void main(String[] args) {
-		Car[] c1 = new Car[3];
+		Cars[] c1 = new Cars[3];
 
 		for (int i = 0; i < 3; i++) {
-			c1[i] = new Car();
+			c1[i] = new Cars();
 		}
 		for (int i = 0; i < 3; i++) {
 			c1[i].accept();
